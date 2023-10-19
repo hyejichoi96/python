@@ -1,0 +1,21 @@
+# 확장자가 .csv, .log인 파일 제외
+*.csv
+*.log
+*.txt
+
+# .txt 파일들은 모두 무시되지만, requirements.txt만은 무시하지 않음
+!requirements.txt
+
+# 특정 폴더 제외
+# si/
+# ra_aggr/
+# ra_neur/
+# ra_def/
+# __pycache__/
+
+# chart.py
+# login.pyaccountList.py
+# test.py
+# .gitignore
+# log_debug.log
+# log_error.log
